@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Pininfarina",
   slug: "pininfarina",
   pngUrl: "https://www.carlogos.org/logo/Pininfarina-logo.png",
-  source: "https://www.carlogos.org/car-brands/pininfarina-logo.html",
   country: "Italy",
   region: "Italian",
   founded: 1930,

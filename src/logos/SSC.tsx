@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "SSC",
   slug: "ssc",
   pngUrl: "https://www.carlogos.org/logo/SSC-logo.png",
-  source: "https://www.carlogos.org/car-brands/ssc-logo.html",
   country: "USA",
   region: "American",
   founded: 1998,

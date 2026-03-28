@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Aston Martin",
   slug: "aston-martin",
   pngUrl: "https://www.carlogos.org/logo/Aston-Martin-logo.png",
-  source: "https://www.carlogos.org/car-brands/aston-martin-logo.html",
   country: "UK",
   region: "British",
   founded: 1913,

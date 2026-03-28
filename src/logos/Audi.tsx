@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Audi",
   slug: "audi",
   pngUrl: "https://www.carlogos.org/logo/Audi-logo.png",
-  source: "https://www.carlogos.org/car-brands/audi-logo.html",
   country: "Germany",
   region: "German",
   founded: 1909,

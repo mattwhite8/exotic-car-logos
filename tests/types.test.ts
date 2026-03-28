@@ -7,7 +7,6 @@ const meta: CarLogoMeta = {
   title: "Test",
   slug: "test",
   pngUrl: "https://example.com/test.png",
-  source: "https://example.com",
   country: "Testland",
   region: "Other",
   founded: 2000,

@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Spyker",
   slug: "spyker",
   pngUrl: "https://www.carlogos.org/logo/Spyker-logo.png",
-  source: "https://www.carlogos.org/car-brands/spyker-logo.html",
   country: "Netherlands",
   region: "Other",
   founded: 1999,

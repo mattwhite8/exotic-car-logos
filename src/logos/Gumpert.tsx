@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Gumpert",
   slug: "gumpert",
   pngUrl: "https://www.carlogos.org/logo/Gumpert-logo.png",
-  source: "https://www.carlogos.org/car-brands/gumpert-logo.html",
   country: "Germany",
   region: "German",
   founded: 2004,

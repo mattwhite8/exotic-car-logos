@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Jaguar",
   slug: "jaguar",
   pngUrl: "https://www.carlogos.org/logo/Jaguar-logo.png",
-  source: "https://www.carlogos.org/car-brands/jaguar-logo.html",
   country: "UK",
   region: "British",
   founded: 1935,

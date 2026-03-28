@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Chevrolet",
   slug: "chevrolet",
   pngUrl: "https://www.carlogos.org/logo/Chevrolet-logo.png",
-  source: "https://www.carlogos.org/car-brands/chevrolet-logo.html",
   country: "USA",
   region: "American",
   founded: 1911,

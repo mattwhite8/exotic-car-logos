@@ -5,7 +5,6 @@ export type LogoSize = "sm" | "md" | "lg";
 
 /**
  * Pixel dimensions for each size tier.
- * Maps directly to carlogos.org's available PNG widths.
  */
 export const SIZE_MAP: Record<LogoSize, number> = {
   sm: 80, // Thumbnails, nav icons, table cells
@@ -14,8 +13,7 @@ export const SIZE_MAP: Record<LogoSize, number> = {
 };
 
 /**
- * Width in pixels used when fetching from carlogos.org.
- * Always fetch the 640px variant — smaller variants are not reliably available.
+ * Width in pixels used when fetching logo images.
  */
 export const CDN_WIDTH_MAP: Record<LogoSize, number> = {
   sm: 640,
@@ -70,14 +68,11 @@ export interface CarLogoMeta {
   /** Brand display name, e.g. "Rolls-Royce" */
   title: string;
 
-  /** URL-safe slug used in carlogos.org URLs, e.g. "rolls-royce" */
+  /** URL-safe slug, e.g. "rolls-royce" */
   slug: string;
 
-  /** Full 640px PNG URL from carlogos.org */
+  /** PNG logo URL */
   pngUrl: string;
-
-  /** Source page URL on carlogos.org */
-  source: string;
 
   /** Country of origin, e.g. "Italy" */
   country: string;

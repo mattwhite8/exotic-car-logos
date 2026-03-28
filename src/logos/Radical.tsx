@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Radical",
   slug: "radical",
   pngUrl: "https://www.carlogos.org/logo/Radical-Sportscars-logo.png",
-  source: "https://www.carlogos.org/car-brands/radical-logo.html",
   country: "UK",
   region: "British",
   founded: 1997,

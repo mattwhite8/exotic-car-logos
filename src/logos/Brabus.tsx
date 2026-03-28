@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Brabus",
   slug: "brabus",
   pngUrl: "https://www.carlogos.org/logo/Brabus-logo.png",
-  source: "https://www.carlogos.org/car-brands/brabus-logo.html",
   country: "Germany",
   region: "German",
   founded: 1977,

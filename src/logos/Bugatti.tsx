@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Bugatti",
   slug: "bugatti",
   pngUrl: "https://www.carlogos.org/logo/Bugatti-logo.png",
-  source: "https://www.carlogos.org/car-brands/bugatti-logo.html",
   country: "France",
   region: "French",
   founded: 1909,

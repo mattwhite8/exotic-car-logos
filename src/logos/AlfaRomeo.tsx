@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Alfa Romeo",
   slug: "alfa-romeo",
   pngUrl: "https://www.carlogos.org/logo/Alfa-Romeo-logo.png",
-  source: "https://www.carlogos.org/car-brands/alfa-romeo-logo.html",
   country: "Italy",
   region: "Italian",
   founded: 1910,

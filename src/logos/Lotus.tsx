@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Lotus",
   slug: "lotus",
   pngUrl: "https://www.carlogos.org/logo/Lotus-logo.png",
-  source: "https://www.carlogos.org/car-brands/lotus-logo.html",
   country: "UK",
   region: "British",
   founded: 1948,

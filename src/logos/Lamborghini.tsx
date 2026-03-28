@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Lamborghini",
   slug: "lamborghini",
   pngUrl: "https://www.carlogos.org/logo/Lamborghini-logo.png",
-  source: "https://www.carlogos.org/car-brands/lamborghini-logo.html",
   country: "Italy",
   region: "Italian",
   founded: 1963,

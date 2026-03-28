@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Polestar",
   slug: "polestar",
   pngUrl: "https://www.carlogos.org/logo/Polestar-logo.png",
-  source: "https://www.carlogos.org/car-brands/polestar-logo.html",
   country: "Sweden",
   region: "Swedish",
   founded: 2017,

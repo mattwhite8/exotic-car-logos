@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Ford",
   slug: "ford",
   pngUrl: "https://www.carlogos.org/logo/Ford-logo.png",
-  source: "https://www.carlogos.org/car-brands/ford-logo.html",
   country: "USA",
   region: "American",
   founded: 1903,

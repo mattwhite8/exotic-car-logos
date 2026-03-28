@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Zenvo",
   slug: "zenvo",
   pngUrl: "https://www.carlogos.org/logo/Zenvo-logo.png",
-  source: "https://www.carlogos.org/car-brands/zenvo-logo.html",
   country: "Denmark",
   region: "Other",
   founded: 2004,

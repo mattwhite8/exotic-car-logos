@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Ferrari",
   slug: "ferrari",
   pngUrl: "https://www.carlogos.org/logo/Ferrari-logo.png",
-  source: "https://www.carlogos.org/car-brands/ferrari-logo.html",
   country: "Italy",
   region: "Italian",
   founded: 1939,

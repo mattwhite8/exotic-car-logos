@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "TVR",
   slug: "tvr",
   pngUrl: "https://www.carlogos.org/logo/TVR-logo.png",
-  source: "https://www.carlogos.org/car-brands/tvr-logo.html",
   country: "UK",
   region: "British",
   founded: 1947,

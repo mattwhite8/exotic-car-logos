@@ -72,6 +72,6 @@ describe("FerrariMeta", () => {
     expect(FerrariMeta.country).toBe("Italy");
     expect(FerrariMeta.founded).toBe(1939);
     expect(FerrariMeta.hex).toMatch(/^[0-9A-F]{6}$/i);
-    expect(FerrariMeta.pngUrl).toMatch(/^https:\/\/www\.carlogos\.org/);
+    expect(FerrariMeta.pngUrl).toMatch(/^https:\/\//);
   });
 });

@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Bentley",
   slug: "bentley",
   pngUrl: "https://www.carlogos.org/logo/Bentley-logo.png",
-  source: "https://www.carlogos.org/car-brands/bentley-logo.html",
   country: "UK",
   region: "British",
   founded: 1919,

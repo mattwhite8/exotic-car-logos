@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Hennessey",
   slug: "hennessey",
   pngUrl: "https://www.carlogos.org/logo/Hennessey-logo.png",
-  source: "https://www.carlogos.org/car-brands/hennessey-logo.html",
   country: "USA",
   region: "American",
   founded: 1991,

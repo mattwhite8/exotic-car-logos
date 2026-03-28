@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Mercedes-AMG",
   slug: "mercedes-amg",
   pngUrl: "https://www.carlogos.org/car-logos/mercedes-benz-logo.png",
-  source: "https://www.carlogos.org/car-brands/mercedes-benz-logo.html",
   country: "Germany",
   region: "German",
   founded: 1967,

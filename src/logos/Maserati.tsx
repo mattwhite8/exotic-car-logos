@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Maserati",
   slug: "maserati",
   pngUrl: "https://www.carlogos.org/logo/Maserati-logo.png",
-  source: "https://www.carlogos.org/car-brands/maserati-logo.html",
   country: "Italy",
   region: "Italian",
   founded: 1914,

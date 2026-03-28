@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Alpine",
   slug: "alpine",
   pngUrl: "https://www.carlogos.org/logo/Alpine-logo.png",
-  source: "https://www.carlogos.org/car-brands/alpine-logo.html",
   country: "France",
   region: "French",
   founded: 1955,

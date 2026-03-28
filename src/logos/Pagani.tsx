@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Pagani",
   slug: "pagani",
   pngUrl: "https://www.carlogos.org/logo/Pagani-logo.png",
-  source: "https://www.carlogos.org/car-brands/pagani-logo.html",
   country: "Italy",
   region: "Italian",
   founded: 1992,

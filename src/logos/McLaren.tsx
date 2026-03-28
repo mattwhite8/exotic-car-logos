@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "McLaren",
   slug: "mclaren",
   pngUrl: "https://www.carlogos.org/logo/McLaren-logo.png",
-  source: "https://www.carlogos.org/car-brands/mclaren-logo.html",
   country: "UK",
   region: "British",
   founded: 1963,

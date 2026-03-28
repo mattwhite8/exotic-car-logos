@@ -71,7 +71,6 @@ export const meta: CarLogoMeta = {
   title: "${brand.title}",
   slug: "${brand.slug}",
   pngUrl: "${brand.pngUrl}",
-  source: "https://www.carlogos.org/car-brands/${brand.slug}-logo.html",
   country: "${brand.country}",
   region: "${brand.region}",
   founded: ${brand.founded},

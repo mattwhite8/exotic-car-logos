@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "W Motors",
   slug: "w-motors",
   pngUrl: "https://www.carlogos.org/logo/W-Motors-logo.png",
-  source: "https://www.carlogos.org/car-brands/w-motors-logo.html",
   country: "UAE",
   region: "Other",
   founded: 2012,

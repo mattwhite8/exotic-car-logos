@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Mosler",
   slug: "mosler",
   pngUrl: "https://www.carlogos.org/logo/Mosler-logo.png",
-  source: "https://www.carlogos.org/car-brands/mosler-logo.html",
   country: "USA",
   region: "American",
   founded: 1985,

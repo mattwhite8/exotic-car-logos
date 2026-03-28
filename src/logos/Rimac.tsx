@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Rimac",
   slug: "rimac",
   pngUrl: "https://www.carlogos.org/logo/Rimac-logo.png",
-  source: "https://www.carlogos.org/car-brands/rimac-logo.html",
   country: "Croatia",
   region: "Other",
   founded: 2009,

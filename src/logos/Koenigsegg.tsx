@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Koenigsegg",
   slug: "koenigsegg",
   pngUrl: "https://www.carlogos.org/logo/Koenigsegg-logo.png",
-  source: "https://www.carlogos.org/car-brands/koenigsegg-logo.html",
   country: "Sweden",
   region: "Swedish",
   founded: 1994,

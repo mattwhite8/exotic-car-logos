@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Dodge",
   slug: "dodge",
   pngUrl: "https://www.carlogos.org/logo/Dodge-logo.png",
-  source: "https://www.carlogos.org/car-brands/dodge-logo.html",
   country: "USA",
   region: "American",
   founded: 1900,

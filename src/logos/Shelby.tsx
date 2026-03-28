@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Shelby",
   slug: "shelby",
   pngUrl: "https://www.carlogos.org/logo/Shelby-logo.png",
-  source: "https://www.carlogos.org/car-brands/shelby-logo.html",
   country: "USA",
   region: "American",
   founded: 1962,

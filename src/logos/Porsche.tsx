@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Porsche",
   slug: "porsche",
   pngUrl: "https://www.carlogos.org/logo/Porsche-logo.png",
-  source: "https://www.carlogos.org/car-brands/porsche-logo.html",
   country: "Germany",
   region: "German",
   founded: 1931,

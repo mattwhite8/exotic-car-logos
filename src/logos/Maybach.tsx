@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Maybach",
   slug: "maybach",
   pngUrl: "https://www.carlogos.org/logo/Maybach-logo.png",
-  source: "https://www.carlogos.org/car-brands/maybach-logo.html",
   country: "Germany",
   region: "German",
   founded: 1909,

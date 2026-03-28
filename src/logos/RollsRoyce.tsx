@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Rolls-Royce",
   slug: "rolls-royce",
   pngUrl: "https://www.carlogos.org/logo/Rolls-Royce-logo.png",
-  source: "https://www.carlogos.org/car-brands/rolls-royce-logo.html",
   country: "UK",
   region: "British",
   founded: 1904,

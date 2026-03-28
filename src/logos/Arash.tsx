@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Arash",
   slug: "arash",
   pngUrl: "https://www.carlogos.org/logo/Arash-logo.png",
-  source: "https://www.carlogos.org/car-brands/arash-logo.html",
   country: "UK",
   region: "British",
   founded: 1999,

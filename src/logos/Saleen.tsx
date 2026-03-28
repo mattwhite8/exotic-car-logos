@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Saleen",
   slug: "saleen",
   pngUrl: "https://www.carlogos.org/logo/Saleen-logo.png",
-  source: "https://www.carlogos.org/car-brands/saleen-logo.html",
   country: "USA",
   region: "American",
   founded: 1983,

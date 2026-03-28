@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "Abarth",
   slug: "abarth",
   pngUrl: "https://www.carlogos.org/logo/Abarth-logo.png",
-  source: "https://www.carlogos.org/car-brands/abarth-logo.html",
   country: "Italy",
   region: "Italian",
   founded: 1949,

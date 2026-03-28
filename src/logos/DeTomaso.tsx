@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "De Tomaso",
   slug: "de-tomaso",
   pngUrl: "https://www.carlogos.org/logo/De-Tomaso-logo.png",
-  source: "https://www.carlogos.org/car-brands/de-tomaso-logo.html",
   country: "Italy",
   region: "Italian",
   founded: 1959,

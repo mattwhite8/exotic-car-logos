@@ -6,7 +6,6 @@ export const meta: CarLogoMeta = {
   title: "BMW",
   slug: "bmw",
   pngUrl: "https://www.carlogos.org/logo/BMW-logo.png",
-  source: "https://www.carlogos.org/car-brands/bmw-logo.html",
   country: "Germany",
   region: "German",
   founded: 1916,
