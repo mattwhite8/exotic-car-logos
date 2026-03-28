@@ -1,20 +1,20 @@
-# exotic-car-logos
+# react-car-logo
 
 PNG logo components for the top 50 exotic & luxury car brands. React & React Native compatible. Tree-shakeable. TypeScript.
 
 ## Installation
 
 ```bash
-npm install exotic-car-logos
+npm install react-car-logo
 ```
 
 ## Quick Start
 
 ```tsx
-import { Ferrari, McLaren } from 'exotic-car-logos';
+import { Ferrari, McLaren } from 'react-car-logo';
 
 // Or tree-shaken single import:
-import Ferrari from 'exotic-car-logos/logos/Ferrari';
+import Ferrari from 'react-car-logo/logos/Ferrari';
 
 <Ferrari size="md" />           // 160px (default)
 <Ferrari size="sm" />           // 80px
@@ -50,7 +50,7 @@ import Ferrari from 'exotic-car-logos/logos/Ferrari';
 Each brand exports a `meta` object alongside the component:
 
 ```tsx
-import { FerrariMeta } from 'exotic-car-logos';
+import { FerrariMeta } from 'react-car-logo';
 
 console.log(FerrariMeta.title);   // "Ferrari"
 console.log(FerrariMeta.country); // "Italy"
@@ -63,7 +63,7 @@ console.log(FerrariMeta.founded); // 1939
 For rendering logos from string keys:
 
 ```tsx
-import * as CarLogos from 'exotic-car-logos/allLogos';
+import * as CarLogos from 'react-car-logo/allLogos';
 
 const brandName = 'Ferrari';
 const Logo = CarLogos[brandName as keyof typeof CarLogos];
@@ -76,7 +76,7 @@ Use the metadata `pngUrl` with React Native's `Image`:
 
 ```tsx
 import { Image } from 'react-native';
-import { FerrariMeta } from 'exotic-car-logos';
+import { FerrariMeta } from 'react-car-logo';
 
 <Image source={{ uri: FerrariMeta.pngUrl }} style={{ width: 160, height: 160 }} />;
 ```

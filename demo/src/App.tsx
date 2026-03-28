@@ -40,8 +40,8 @@ import {
   Zenvo, ZenvoMeta,
   Spyker, SpykerMeta,
   WMotors, WMotorsMeta,
-} from "exotic-car-logos";
-import type { CarLogoMeta, LogoSize } from "exotic-car-logos";
+} from "react-car-logo";
+import type { CarLogoMeta, LogoSize } from "react-car-logo";
 
 const ALL_BRANDS: { Component: React.FC<any>; meta: CarLogoMeta }[] = [
   { Component: Ferrari, meta: FerrariMeta },
@@ -105,7 +105,7 @@ export default function App() {
       {/* Header */}
       <header style={{ borderBottom: "1px solid #222", padding: "24px 32px" }}>
         <h1 style={{ margin: 0, fontSize: 28, fontWeight: 700, color: "#fff" }}>
-          exotic-car-logos
+          react-car-logo
         </h1>
         <p style={{ margin: "6px 0 0", color: "#888", fontSize: 14 }}>
           {ALL_BRANDS.length} exotic & luxury car brand logos -- React components with size presets, metadata, and tree-shaking
@@ -137,7 +137,7 @@ export default function App() {
       <section style={{ padding: "32px 32px 0" }}>
         <h2 style={{ fontSize: 18, fontWeight: 600, color: "#ccc", marginBottom: 16 }}>Usage</h2>
         <pre style={{ background: "#111", borderRadius: 12, padding: 24, border: "1px solid #222", fontSize: 13, lineHeight: 1.7, overflowX: "auto", color: "#c8d6e5" }}>
-{`import { Ferrari, McLaren, FerrariMeta } from 'exotic-car-logos';
+{`import { Ferrari, McLaren, FerrariMeta } from 'react-car-logo';
 
 <Ferrari size="md" />           // 160px (default)
 <Ferrari size="sm" />           // 80px
