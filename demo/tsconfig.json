@@ -9,8 +9,8 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "paths": {
-      "exotic-car-logos": ["../src/index.ts"],
-      "exotic-car-logos/*": ["../src/*"]
+      "react-car-logo": ["../src/index.ts"],
+      "react-car-logo/*": ["../src/*"]
     }
   },
   "include": ["src"]
