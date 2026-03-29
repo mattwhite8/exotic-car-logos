@@ -1,12 +1,56 @@
 import { ImgHTMLAttributes } from "react";
 
 /** Available logo size presets */
-export type LogoSize = "sm" | "md" | "lg";
+export type LogoSize = "icon" | "sm" | "md" | "lg";
+
+/** All supported brand name slugs */
+export type BrandName =
+  | "abarth"
+  | "alfa-romeo"
+  | "alpine"
+  | "arash"
+  | "aston-martin"
+  | "audi"
+  | "bentley"
+  | "bmw"
+  | "brabus"
+  | "bugatti"
+  | "chevrolet"
+  | "de-tomaso"
+  | "dodge"
+  | "ferrari"
+  | "ford"
+  | "gumpert"
+  | "hennessey"
+  | "jaguar"
+  | "koenigsegg"
+  | "lamborghini"
+  | "lotus"
+  | "maserati"
+  | "maybach"
+  | "mclaren"
+  | "mercedes-amg"
+  | "mosler"
+  | "pagani"
+  | "pininfarina"
+  | "polestar"
+  | "porsche"
+  | "radical"
+  | "rimac"
+  | "rolls-royce"
+  | "saleen"
+  | "shelby"
+  | "spyker"
+  | "ssc"
+  | "tvr"
+  | "w-motors"
+  | "zenvo";
 
 /**
  * Pixel dimensions for each size tier.
  */
 export const SIZE_MAP: Record<LogoSize, number> = {
+  icon: 32, // Inline icons, favicons, small UI elements
   sm: 80, // Thumbnails, nav icons, table cells
   md: 160, // Cards, lists, sidebars (default)
   lg: 320, // Hero sections, detail views
@@ -16,34 +60,39 @@ export const SIZE_MAP: Record<LogoSize, number> = {
  * Width in pixels used when fetching logo images.
  */
 export const CDN_WIDTH_MAP: Record<LogoSize, number> = {
+  icon: 640,
   sm: 640,
   md: 640,
   lg: 640,
 };
 
 /**
- * Props accepted by every car logo component.
+ * Props accepted by the ReactCarLogo component.
  * Extends standard <img> HTML attributes (minus src/width/height which are controlled).
  */
-export interface CarLogoProps
+export interface ReactCarLogoProps
   extends Omit<ImgHTMLAttributes<HTMLImageElement>, "src" | "width" | "height"> {
   /**
-   * Size preset. Controls both the rendered dimension and the PNG resolution fetched.
-   * - `'sm'`  -> renders at 80px,  fetches 160px PNG (2x retina)
-   * - `'md'`  -> renders at 160px, fetches 320px PNG (2x retina) -- DEFAULT
-   * - `'lg'`  -> renders at 320px, fetches 640px PNG (2x retina)
+   * Brand name slug. e.g. "ferrari", "alfa-romeo", "rolls-royce"
+   */
+  name: BrandName;
+
+  /**
+   * Size preset. Controls the rendered dimension.
+   * - `'icon'` -> renders at 32px
+   * - `'sm'`   -> renders at 80px
+   * - `'md'`   -> renders at 160px -- DEFAULT
+   * - `'lg'`   -> renders at 320px
    */
   size?: LogoSize;
 
   /**
    * Custom pixel width. Overrides `size` if provided.
-   * The highest available PNG resolution (640px) will be fetched.
    */
   width?: number;
 
   /**
    * Custom pixel height. Overrides `size` if provided.
-   * The highest available PNG resolution (640px) will be fetched.
    */
   height?: number;
 
@@ -61,7 +110,7 @@ export interface CarLogoProps
 }
 
 /**
- * Metadata object exported alongside each logo component.
+ * Metadata object for each brand.
  * Useful for building dynamic UIs, lists, and filters.
  */
 export interface CarLogoMeta {

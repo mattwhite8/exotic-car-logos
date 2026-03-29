@@ -1,77 +1,91 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import { Ferrari, FerrariMeta } from "../src";
+import { ReactCarLogo, brands } from "../src";
 
-describe("Ferrari component", () => {
+describe("ReactCarLogo component", () => {
   it("renders an img element", () => {
-    render(<Ferrari />);
+    render(<ReactCarLogo name="ferrari" />);
     expect(screen.getByRole("img")).toBeInTheDocument();
   });
 
   it("defaults to md size (160px)", () => {
-    render(<Ferrari />);
+    render(<ReactCarLogo name="ferrari" />);
     const img = screen.getByRole("img");
     expect(img).toHaveAttribute("width", "160");
     expect(img).toHaveAttribute("height", "160");
   });
 
+  it("renders icon size at 32px", () => {
+    render(<ReactCarLogo name="ferrari" size="icon" />);
+    const img = screen.getByRole("img");
+    expect(img).toHaveAttribute("width", "32");
+  });
+
   it("renders sm size at 80px", () => {
-    render(<Ferrari size="sm" />);
+    render(<ReactCarLogo name="ferrari" size="sm" />);
     const img = screen.getByRole("img");
     expect(img).toHaveAttribute("width", "80");
   });
 
   it("renders lg size at 320px", () => {
-    render(<Ferrari size="lg" />);
+    render(<ReactCarLogo name="ferrari" size="lg" />);
     const img = screen.getByRole("img");
     expect(img).toHaveAttribute("width", "320");
   });
 
   it("accepts custom width override", () => {
-    render(<Ferrari width={240} />);
+    render(<ReactCarLogo name="ferrari" width={240} />);
     expect(screen.getByRole("img")).toHaveAttribute("width", "240");
   });
 
   it("uses default alt text from brand name", () => {
-    render(<Ferrari />);
+    render(<ReactCarLogo name="ferrari" />);
     expect(screen.getByAltText("Ferrari")).toBeInTheDocument();
   });
 
   it("accepts custom alt text", () => {
-    render(<Ferrari alt="The prancing horse" />);
+    render(<ReactCarLogo name="ferrari" alt="The prancing horse" />);
     expect(screen.getByAltText("The prancing horse")).toBeInTheDocument();
   });
 
   it("defaults to lazy loading", () => {
-    render(<Ferrari />);
+    render(<ReactCarLogo name="ferrari" />);
     expect(screen.getByRole("img")).toHaveAttribute("loading", "lazy");
   });
 
   it("can be set to eager loading", () => {
-    render(<Ferrari loading="eager" />);
+    render(<ReactCarLogo name="ferrari" loading="eager" />);
     expect(screen.getByRole("img")).toHaveAttribute("loading", "eager");
   });
 
   it("forwards additional props to img", () => {
-    render(<Ferrari data-testid="ferrari-logo" className="my-logo" />);
+    render(<ReactCarLogo name="ferrari" data-testid="ferrari-logo" className="my-logo" />);
     const img = screen.getByTestId("ferrari-logo");
     expect(img).toHaveClass("my-logo");
   });
 
   it("src URL points to carlogos.org", () => {
-    render(<Ferrari />);
+    render(<ReactCarLogo name="ferrari" />);
     expect(screen.getByRole("img").getAttribute("src")).toMatch(/carlogos\.org/);
+  });
+
+  it("renders different brands via name prop", () => {
+    const { rerender } = render(<ReactCarLogo name="lamborghini" />);
+    expect(screen.getByAltText("Lamborghini")).toBeInTheDocument();
+
+    rerender(<ReactCarLogo name="porsche" />);
+    expect(screen.getByAltText("Porsche")).toBeInTheDocument();
   });
 });
 
-describe("FerrariMeta", () => {
-  it("has required metadata fields", () => {
-    expect(FerrariMeta.title).toBe("Ferrari");
-    expect(FerrariMeta.slug).toBe("ferrari");
-    expect(FerrariMeta.country).toBe("Italy");
-    expect(FerrariMeta.founded).toBe(1939);
-    expect(FerrariMeta.hex).toMatch(/^[0-9A-F]{6}$/i);
-    expect(FerrariMeta.pngUrl).toMatch(/^https:\/\//);
+describe("brands registry", () => {
+  it("has Ferrari metadata", () => {
+    expect(brands.ferrari.title).toBe("Ferrari");
+    expect(brands.ferrari.slug).toBe("ferrari");
+    expect(brands.ferrari.country).toBe("Italy");
+    expect(brands.ferrari.founded).toBe(1939);
+    expect(brands.ferrari.hex).toMatch(/^[0-9A-F]{6}$/i);
+    expect(brands.ferrari.pngUrl).toMatch(/^https:\/\//);
   });
 });
