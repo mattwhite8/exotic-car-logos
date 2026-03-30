@@ -7,7 +7,6 @@ const props: ReactCarLogoProps = { name: "ferrari", size: "lg", alt: "test", loa
 const meta: CarLogoMeta = {
   title: "Test",
   slug: "test",
-  pngUrl: "https://example.com/test.png",
   country: "Testland",
   region: "Other",
   founded: 2000,

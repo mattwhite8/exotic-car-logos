@@ -52,10 +52,11 @@ Access metadata for any brand via the `brands` registry:
 ```tsx
 import { brands } from 'react-car-logo';
 
-console.log(brands.ferrari.title);   // "Ferrari"
-console.log(brands.ferrari.country); // "Italy"
-console.log(brands.ferrari.hex);     // "CD212A"
-console.log(brands.ferrari.founded); // 1939
+console.log(brands.ferrari.title);    // "Ferrari"
+console.log(brands.ferrari.country);  // "Italy"
+console.log(brands.ferrari.region);   // "Italian"
+console.log(brands.ferrari.hex);      // "CD212A"
+console.log(brands.ferrari.founded);  // 1939
 ```
 
 ## Dynamic Rendering
@@ -68,17 +69,6 @@ import type { BrandName } from 'react-car-logo';
 
 const make = 'ferrari' as BrandName;
 <ReactCarLogo name={make} size="md" />;
-```
-
-## React Native
-
-Use the metadata `pngUrl` with React Native's `Image`:
-
-```tsx
-import { Image } from 'react-native';
-import { brands } from 'react-car-logo';
-
-<Image source={{ uri: brands.ferrari.pngUrl }} style={{ width: 160, height: 160 }} />;
 ```
 
 ## All 40 Brands

@@ -57,16 +57,6 @@ export const SIZE_MAP: Record<LogoSize, number> = {
 };
 
 /**
- * Width in pixels used when fetching logo images.
- */
-export const CDN_WIDTH_MAP: Record<LogoSize, number> = {
-  icon: 640,
-  sm: 640,
-  md: 640,
-  lg: 640,
-};
-
-/**
  * Props accepted by the ReactCarLogo component.
  * Extends standard <img> HTML attributes (minus src/width/height which are controlled).
  */
@@ -119,9 +109,6 @@ export interface CarLogoMeta {
 
   /** URL-safe slug, e.g. "rolls-royce" */
   slug: string;
-
-  /** PNG logo URL */
-  pngUrl: string;
 
   /** Country of origin, e.g. "Italy" */
   country: string;

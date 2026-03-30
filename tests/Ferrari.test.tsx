@@ -86,6 +86,6 @@ describe("brands registry", () => {
     expect(brands.ferrari.country).toBe("Italy");
     expect(brands.ferrari.founded).toBe(1939);
     expect(brands.ferrari.hex).toMatch(/^[0-9A-F]{6}$/i);
-    expect(brands.ferrari.pngUrl).toMatch(/^https:\/\//);
+
   });
 });

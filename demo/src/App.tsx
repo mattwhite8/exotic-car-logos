@@ -187,12 +187,7 @@ console.log(brands.ferrari.founded);  // 1939`}
                     }} />
                     #{meta.hex}
                   </div>
-                  <div style={{ wordBreak: "break-all" }}>
-                    <strong style={{ color: "#aaa" }}>PNG:</strong>{" "}
-                    <a href={meta.pngUrl} target="_blank" rel="noopener" style={{ color: "#4a9eff" }}>
-                      {meta.pngUrl.split("/").pop()}
-                    </a>
-                  </div>
+
                 </div>
               )}
             </div>
