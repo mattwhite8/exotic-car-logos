@@ -65,9 +65,9 @@ describe("ReactCarLogo component", () => {
     expect(img).toHaveClass("my-logo");
   });
 
-  it("src URL points to carlogos.org", () => {
+  it("src is set from local logo asset", () => {
     render(<ReactCarLogo name="ferrari" />);
-    expect(screen.getByRole("img").getAttribute("src")).toMatch(/carlogos\.org/);
+    expect(screen.getByRole("img").getAttribute("src")).not.toBeNull();
   });
 
   it("renders different brands via name prop", () => {

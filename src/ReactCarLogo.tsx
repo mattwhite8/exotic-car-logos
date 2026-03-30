@@ -2,6 +2,7 @@ import React from "react";
 import type { ReactCarLogoProps } from "./types";
 import { SIZE_MAP } from "./types";
 import { brands } from "./brands";
+import { logoAssets } from "./logoAssets";
 
 export const ReactCarLogo: React.FC<ReactCarLogoProps> = ({
   name,
@@ -18,7 +19,7 @@ export const ReactCarLogo: React.FC<ReactCarLogoProps> = ({
 
   return (
     <img
-      src={brand.pngUrl}
+      src={logoAssets[name]}
       alt={alt ?? brand.title}
       width={renderPx}
       height={renderPx}
