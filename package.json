@@ -1,6 +1,6 @@
 {
   "name": "react-car-logo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "PNG logo components for exotic & luxury car brands. React & React Native compatible. Tree-shakeable.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
